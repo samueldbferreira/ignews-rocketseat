@@ -1,0 +1,41 @@
+.container {
+	max-width: 1120px;
+	height: calc(100vh - 5rem - 1px);
+	margin: 0 auto;
+	padding: 6rem 2rem;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.welcome {
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--gray-100);
+	margin-bottom: 2.5rem;
+}
+
+.heading {
+	font-size: 4.5rem;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 1.6rem;
+}
+
+.heading strong {
+	color: var(--cyan-500);
+}
+
+.text {
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: var(--white);
+	margin-bottom: 2.5rem;
+}
+
+.text strong {
+	font-weight: 700;
+	color: var(--cyan-500);
+}

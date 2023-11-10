@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logoSVG from "../../assets/logo.svg";
-import githubSVG from "../../assets/github.svg";
 import styles from "./styles.module.css";
+import { SignInButton } from "./signInButton";
 
 export function Header() {
 	const pathname = usePathname();
@@ -24,10 +24,7 @@ export function Header() {
 						Posts
 					</Link>
 				</nav>
-				<button className={styles.btnLogin}>
-					<Image src={githubSVG} alt="GitHub" />
-					<span>Sign in with GitHub</span>
-				</button>
+				<SignInButton />
 			</div>
 		</header>
 	);

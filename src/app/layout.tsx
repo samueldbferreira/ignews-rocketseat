@@ -1,8 +1,8 @@
 import { Roboto } from "next/font/google";
-import "./globals.css";
 import { Header } from "@/components/header";
+import "./globals.css";
 
-const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700", "900"] });
 
 export default function RootLayout({
 	children,

@@ -1,0 +1,26 @@
+.btnLogin {
+	background-color: var(--gray-850);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	height: 3rem;
+	padding: 0 1.5rem;
+	border: none;
+	border-radius: 6.25rem;
+	transition: background-color 0.2s;
+}
+
+.btnLogin:hover {
+	background-color: #1f272999;
+}
+
+.icon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.btnLogin span {
+	display: block;
+	font-weight: 600;
+	color: var(--gray-100);
+}
